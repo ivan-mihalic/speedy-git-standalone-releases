@@ -1,4 +1,4 @@
-# Speedy Git
+# Speedy Git Standalone
 
 **A fast Git history viewer for macOS.** It shows your repository's commit graph,
 branches, tags and diffs in a native app — and lets you do the everyday work
@@ -15,10 +15,11 @@ Go to
 and download the `.dmg`:
 
 ```
-SpeedyGit-<version>-arm64.dmg
+SpeedyGitStandalone-<version>-arm64.dmg
 ```
 
-Open it, drag **Speedy Git** to your **Applications** folder, and launch it.
+Open it, drag **Speedy Git Standalone** to your **Applications** folder, and
+launch it.
 
 The app is **signed with an Apple Developer ID and notarised by Apple**, so it
 opens normally the first time — no "unidentified developer" warning, no
@@ -30,14 +31,15 @@ right-click → Open, no Terminal commands to clear a quarantine flag.
 |---|---|
 | **macOS** | 12 (Monterey) or later |
 | **Mac** | Apple Silicon — M1 and later |
-| **Git** | Speedy Git drives your real `git`. Most Macs already have it; if not, `xcode-select --install` installs Apple's command-line tools. |
+| **Git** | Speedy Git Standalone drives your real `git`. Most Macs already have it; if not, `xcode-select --install` installs Apple's command-line tools. |
 
 ## Updates
 
-Speedy Git updates itself from this repository. Open **Speedy Git → About** and
-press **Check for updates**: it tells you which version you would move to, and
-each step after that is yours to take — **Download update**, then **Restart &
-Install**. Nothing is installed behind your back.
+Speedy Git Standalone updates itself from this repository. Open
+**Speedy Git Standalone → About** and press **Check for updates**: it tells you
+which version you would move to, and each step after that is yours to take —
+**Download update**, then **Restart & Install**. Nothing is installed behind
+your back.
 
 ## Built on Speedy Git by onlineeric
 
@@ -63,11 +65,11 @@ This repository holds **releases only**. There is no source code here: the app's
 own source is not published. What you will find is the signed download, the file
 the in-app updater reads, and this page.
 
-Speedy Git is **free to download**.
+Speedy Git Standalone is **free to download**.
 
 ## Licence
 
-Speedy Git — standalone is © Ivan Mihalic and is distributed as a binary; its
+Speedy Git Standalone is © Ivan Mihalic and is distributed as a binary; its
 own source is not open. It incorporates
 [speedy-git-ext](https://github.com/onlineeric/speedy-git-ext) © Eric Cheng
 (onlineeric) under the MIT licence, along with other open-source components,
